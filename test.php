@@ -91,8 +91,6 @@
              
             </div>
             <div class="author_info">
-                <h4>twilight</p>
-                <p>cease to struggle and you cease to live</p>
             </div>
         </div>
         <div class="article">
@@ -107,8 +105,6 @@
             </ul>
         </div>
         <div class="site_info">
-            <p>访客100</p>
-            <p>文章数100</p>
         </div>
     </div>
     <div class="clear"></div>
