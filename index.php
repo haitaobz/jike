@@ -1,6 +1,7 @@
 <html>
-<style type="text/css">@import url("style.css");></style>
+<link rel="stylesheet" href="css/style.css">
 <head>
+<link rel="stylesheet" href="css/style.css">
 <meta charset="utf-8">
 <title>极客</title>
 </head>
