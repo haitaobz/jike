@@ -204,7 +204,7 @@
 <?php 
 $pifu = array("遇见神鹿","紫霞仙子","曙光守护者","圣诞狂欢"); 
 foreach ($pifu as $value) {
-  echo "<label> <input name="r15[]" type="checkbox" value=$value>$value</label>";
+  echo "<label> <input name="r15[]" type="checkbox" value="$value">$value</label>";
 }
 ?>
     <label> <input name="r15[]" type="checkbox" value="遇见神鹿">遇见神鹿</label>
