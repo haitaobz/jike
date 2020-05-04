@@ -133,8 +133,6 @@
   
 <input type="submit" value="提交">
 </form>
-</body>
-</html>
 <script>
     function Copy() {
         // 获取Dom节点
