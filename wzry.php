@@ -114,3 +114,14 @@
   
 <input type="submit" value="提交">
 </form>
+<script>
+    function Copy() {
+        // 获取Dom节点
+       var copy = document.getElementById('copy');
+        //  用select函数将文本内容选中
+        copy.select();
+        document.execCommand('Copy');
+        alert('复制成功')
+
+    }        
+</script>
