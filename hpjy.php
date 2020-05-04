@@ -7,35 +7,35 @@
 <textarea name="copy" id="copy" cols="30" rows="16">
 区服系统选项:<?php echo $_POST["r1"];?>
   
-是否成年号（健康系统）:<?php echo $_POST["r2"]; ?>
+账号性别:<?php echo $_POST["r2"]; ?>
   
-贵族等级:<?php echo $_POST["r3"]; ?>
+充值金额(大概即可):<?php echo $_POST["r3"]; ?>
 
-角色等级:<?php echo $_POST["r4"]; ?>
+具体大区:<?php echo $_POST["r4"]; ?>
 
-英雄级武器数量:<?php echo $_POST["r5"]; ?>
+套装数量(仓库内查看):<?php echo $_POST["r5"]; ?>
 
-玩偶:<?php echo $_POST["r6"]; ?>
+枪械皮肤数量（仓库内查看）:<?php echo $_POST["r6"]; ?>
 
-英雄武器光效:<?php echo $_POST["r7"]; ?>
+粉套装数量（仓库内查看）:<?php echo $_POST["r7"]; ?>
 
-英雄武器皮肤:<?php echo $_POST["r8"]; ?>
+飞行器数量（仓库内查看）:<?php echo $_POST["r8"]; ?>
 
-多个英雄武器:<?php echo $_POST["r9"]; ?>
+载具数量（仓库内查看）:<?php echo $_POST["r9"]; ?>
 
-多个武器:<?php echo $_POST["r10"]; ?>
+当前段位:<?php echo $_POST["r10"]; ?>
 
-英雄人物:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
+载具皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄步枪:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
+五曜皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄手枪:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
+套装皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄狙击:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
+无等级枪械皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄机枪:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
+有等级枪械皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄近身及投掷武器:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
+飞行器皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
 <br> 
@@ -43,79 +43,79 @@
 <form action="?action=submit" method="post">
   <dt>区服系统选项:</dt> 
   <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
+  <dd><input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信</dd> 
   <dd><input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ</dd> 
-  <dt>是否成年号（健康系统）:</dt> 
-  <dd><input class="ipt" type="radio" value="成年" name="r2">成年</dd> 
-  <dd><input class="ipt" type="radio" value="未成年" name="r2">未成年</dd>
-  <dt>贵族等级:</dt> 
-  <dd>VIP<input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></dd> 
-  <dt>角色等级:</dt> 
-  <dd><label> <input class="ipt txt txt1" type="text" name="r4"><span>请输入数字</span></label></dd> 
-  <dt>英雄级武器数量:</dt> 
+  <dd><input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信</dd> 
+  <dt>账号性别:</dt> 
+  <dd><input class="ipt" type="radio" value="男号" name="r2">男号</dd> 
+  <dd><input class="ipt" type="radio" value="女号 " name="r2">女号 </dd>
+  <dt>充值金额(大概即可):</dt> 
+  <dd><input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></dd> 
+  <dt>具体大区:</dt> 
+  <dd><label> <input class="ipt txt txt1" type="text" name="r4"><span>例：128区</span></label></dd> 
+  <dt>套装数量(仓库内查看):</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r5">个<span>请输入数字</span></label></dd> 
-  <dt>玩偶:</dt> 
+  <dt>枪械皮肤数量（仓库内查看）:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r6">个<span>请输入数字</span></label></dd> 
-  <dt>英雄武器光效:</dt> 
+  <dt>粉套装数量（仓库内查看）:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r7">个<span>请输入数字</span></label></dd> 
-  <dt>英雄武器皮肤:</dt> 
+  <dt>飞行器数量（仓库内查看）:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r8">个<span>请输入数字</span></label></dd> 
-  <dt>多个英雄武器:</dt> 
+  <dt>载具数量（仓库内查看）:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r9">个<span>请输入数字</span></label></dd> 
-  <dt>多个武器:</dt> 
-  <dd><label> <input class="ipt txt txt1" type="text" name="r10"><span>请写X2 X3这种</span></label></dd> 
-  <dt>英雄人物:</dt> 
-  <label> <input name="r11[]" type="checkbox" value="樱">樱</label>
-  <label> <input name="r11[]" type="checkbox" value="孤狼">孤狼</label>
-  <label> <input name="r11[]" type="checkbox" value="龙野">龙野</label>
-  <label> <input name="r11[]" type="checkbox" value="葵">葵</label>
-  <label> <input name="r11[]" type="checkbox" value="萝拉">萝拉</label>
-  <label> <input name="r11[]" type="checkbox" value="审判者">审判者</label>
-  <label> <input name="r11[]" type="checkbox" value="零">零</label>
+  <dt>当前段位:</dt> 
+  <dd><label> <input class="ipt txt txt1" type="text" name="r10"><span>例：钻石4</span></label></dd> 
+  <dt>载具皮肤:</dt> 
+  <label> <input name="r11[]" type="checkbox" value="金色玛莎拉蒂">金色玛莎拉蒂</label>
+  <label> <input name="r11[]" type="checkbox" value="粉色玛莎拉蒂">粉色玛莎拉蒂</label>
+  <label> <input name="r11[]" type="checkbox" value="蓝色玛莎拉蒂">蓝色玛莎拉蒂</label>
+  <label> <input name="r11[]" type="checkbox" value="梦幻火箭摩托">梦幻火箭摩托</label>
+  <label> <input name="r11[]" type="checkbox" value="南瓜车">南瓜车</label>
 
-  <dt>英雄步枪:</dt> 
+  <dt>五曜皮肤:</dt> 
   <dd>
   <?php 
-  $pifu = array("王者之影","王者之魄","冠军之魄","变色龙","武圣","AK游骑兵","冰魂","M4沙漠领主","王者之心","超新星","火麒麟","死神","死神9A91","M4游骑兵","黑武士","无影","雷神","麒麟","黑龙","黑骑士","常胜","星速","夜袭","火麒麟灵狐","樱龙","角斗士","卧龙","枪娘","君威","恶魔","耀金伯爵","机械纪元","AK沙漠领主","幽暗骑士","牡丹精灵","天使","玫瑰精灵","暗夜","剑齿虎","天启"); 
+  $pifu = array("五曜-土曜","五曜-金曜","五曜-木曜","五曜-水曜","五曜-火曜"); 
   foreach ($pifu as $value) {
     echo "<label> <input name=\"r12[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
 
-  <dt>英雄手枪:</dt> 
+  <dt>套装皮肤:</dt> 
   <dd>
   <?php 
-  $pifu = array("死神","武圣","游骑兵","王者之灵","雷神","天魔缭乱","无影","天神","火麒麟","黑武士","修罗","定军","神罚","飞电"); 
+  $pifu = array("火箭少女套装","蝶舞迷情套装","雪国梦幻套装","深渊皇后套装","快乐主宰套装","浪漫波比套装","柯基套装","胖达团团套装","胖达圆圆套装","萌熊套装","酷熊套装","星际漫游套装","折纸暴龙套装","春暖花开套装","甜心巧克力套装","小丑套装","万圣节(南瓜)套装","向日葵套装","蜘蛛突变者套装","奇异狩猎者套装","数码大师套装","巴纳纳套装","深海小丑鱼套装","狂战萌兔套装","青蛙套装","电音之王套装","金羽特工套装","火箭少女101套装","幻影战神套装"); 
   foreach ($pifu as $value) {
     echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
   
-  <dt>英雄狙击:</dt> 
+  <dt>无等级枪械皮肤:</dt> 
   <dd>
   <?php 
-  $pifu = array("游骑兵","王者之怒","天神","毁灭","雷神","极光","天龙","定军","枪娘"); 
+  $pifu = array("星际漫游M416","黄金龙骨SCAR","AKM冰凉西瓜","火箭少女M4","狮王M4","百万伏特AK","黄金龙骨AWM","南瓜M4","快乐主宰M4"); 
   foreach ($pifu as $value) {
     echo "<label> <input name=\"r14[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
   
-  <dt>英雄机枪:</dt> 
+  <dt>有等级枪械皮肤:</dt> 
   <dd>
   <?php 
-  $pifu = array("炼狱","赤炎盘龙","盘龙","烈龙","寒霜烈龙","黑龙魂","堡垒"); 
+  $pifu = array("M4五爪金龙（1级）","M4五爪金龙（2级）","M4五爪金龙（3级）","M4五爪金龙（4级）","M4五爪金龙（5级）","M4五爪金龙（6级）","M4五爪金龙（7级）","HMP45雪国精灵（1级）","HMP45雪国精灵（2级）","HMP45雪国精灵（3级）","HMP45雪国精灵（4级）","HMP45雪国精灵（5级）","HMP45雪国精灵（6级）","HMP45雪国精灵（7级）","SCAR梦幻火箭（1级）","SCAR梦幻火箭（2级）","SCAR梦幻火箭（3级）","SCAR梦幻火箭（4级）","SCAR梦幻火箭（5级）","SCAR梦幻火箭（6级）","SCAR梦幻火箭（7级）","AKM甜心宝贝的（1级）","AKM甜心宝贝的（2级）","AKM甜心宝贝的（3级）","AKM甜心宝贝的（4级）","AKM甜心宝贝的（5级）","AKM甜心宝贝的（6级）","AKM甜心宝贝的（7级）"); 
   foreach ($pifu as $value) {
     echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
   
-  <dt>英雄近身及投掷武器:</dt> 
+  <dt>飞行器皮肤:</dt> 
   <dd>
   <?php 
-  $pifu = array("死神","游骑兵","斩神刀","斩魔刀","雷霆","无影","火麒麟尼泊尔","麒麟刺","擎天","耀金雷刃","毁灭","屠龙","龙啸","王者之啸","嗜血金鲨","弑魔者","神罚战斧","王者之影手雷","王者之影闪光弹","王者之影烟雾弹","火麒麟手雷","火麒麟闪光弹","火麒麟烟雾弹","黑武士手雷","黑武士闪光弹","黑武士烟雾弹"); 
+  $pifu = array("春暖花开飞行器 ","梦幻火箭飞行器"); 
   foreach ($pifu as $value) {
     echo "<label> <input name=\"r16[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
