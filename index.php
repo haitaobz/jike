@@ -4,6 +4,28 @@
 <title>极客</title>
 </head>
 <body>
+<textarea name="copy" id="copy" cols="30" rows="10">
+区服系统选项:<?php echo $_POST["r1"];?>
+  
+账号性别:<?php echo $_POST["r2"]; ?>
+  
+贵族等级:<?php echo $_POST["r3"]; ?>
+
+限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+荣耀水晶详细:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+限定皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+史诗皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+传说皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+</textarea>
+<br> 
+<input type="button" value="点击复制给客服" onclick="Copy()">
 <form action="?action=submit" method="post">
   <dt>区服系统选项:</dt> 
   <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
@@ -11,11 +33,11 @@
   <dd><input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ</dd> 
   <dd><input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信</dd>
   <dt>账号性别:</dt> 
-  <dd><label> <input class="ipt" type="radio" value="男" name="r2">男</label></dd> 
-  <dd><label> <input class="ipt" type="radio" value="女" name="r2">女</label></dd>
+  <dd><input class="ipt" type="radio" value="男" name="r2">男</dd> 
+  <dd><input class="ipt" type="radio" value="女" name="r2">女</dd>
   <br> 
   <dt>贵族等级:</dt> 
-  <dd><label>VIP <input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></label></dd> 
+  <dd>VIP<input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></dd> 
   <br>
   <dt>具体大区:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r4"><span>例：128区</span></label></dd> 
@@ -109,30 +131,6 @@
 </form>
 </body>
 </html>
-
-<textarea name="copy" id="copy" cols="30" rows="10">
-区服系统选项:<?php echo $_POST["r1"];?>
-  
-账号性别:<?php echo $_POST["r2"]; ?>
-  
-贵族等级:<?php echo $_POST["r3"]; ?>
-
-限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-荣耀水晶详细:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-限定皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-史诗皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-传说皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-</textarea>
-<br> 
-<input type="button" value="点击复制给客服" onclick="Copy()">
-
 <script>
     function Copy() {
         // 获取Dom节点
