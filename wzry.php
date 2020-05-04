@@ -21,11 +21,11 @@
 <br> 
 <input type="button" value="点击复制给客服" onclick="Copy()">
 <form action="?action=submit" method="post" class="item_desc">
-  <dt>区服系统选项:</dt> 
-  <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
-  <dd><input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信</dd> 
-  <dd><input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ</dd> 
-  <dd><input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信</dd>
+  <p>区服系统选项:</p> 
+  <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ
+  <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信
+  <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ
+  <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信
   <dt>账号性别:</dt> 
   <dd><input class="ipt" type="radio" value="男" name="r2">男</dd> 
   <dd><input class="ipt" type="radio" value="女" name="r2">女</dd>
