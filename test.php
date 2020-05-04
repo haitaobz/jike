@@ -11,7 +11,7 @@
 <?php
 if( $_POST )
 {
-$value = $_POST['r1'];
+$value = $_POST['checkbox'];
 echo '你的选择:'.implode(',',$value);
 }
 ?>
