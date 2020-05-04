@@ -33,18 +33,11 @@
 </html>
 
 <textarea autoHeight="true">
-区服系统选项:<?php echo $_POST["r1"];?>&#10;
-账号性别:<?php echo $_POST["r2"]; ?>&#10;
-贵族等级:<?php echo $_POST["r3"]; ?>&#10;
+区服系统选项:<?php echo $_POST["r1"];?>
+  
+账号性别:<?php echo $_POST["r2"]; ?>
+  
+贵族等级:<?php echo $_POST["r3"]; ?>
 
-<?php 
-$area_arr = array(); 
-if($_GET['action']=="submit"){ 
-$area_arr = $_POST['r4']; 
-} 
-echo "您选定的地区为: "; 
-foreach ($area_arr as $k=>$v){ 
-echo $v." "; 
-} 
-?> 
+限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r4']; } foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
