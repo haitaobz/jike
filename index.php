@@ -209,6 +209,25 @@
   ?>
   </dd>
   
+  <dt>内测及战令英雄皮肤:</dt> 
+  <dd>
+  <?php 
+  $pifu = array("蔷薇恋人","优雅恋人 
+    ","艾琳（有皮肤） 
+    ","艾琳（无皮肤） 
+    ","典韦（蓝屏警告） 
+    ","鲁班七号（狮舞东方） 
+    ","兰陵王（驱魔猎人） 
+    ","周瑜（赤莲之焰） 
+    ","李元芳（银河之约） 
+    ","沈梦溪（星空之诺） 
+    ","(必选项)备注：禁止挂机，禁止动用背包里面任何东西和改名字以及金币和钻石，和删好友退战队等，发现后立刻修改" ); 
+  foreach ($pifu as $value) {
+    echo "<label> <input name=\"r16[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+  }
+  ?>
+  </dd>
+  
 <input type="submit" value="提交">
 </form>
 </body>
@@ -230,6 +249,8 @@
 史诗皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 传说皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
 <br> 
