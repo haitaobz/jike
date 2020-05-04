@@ -1,4 +1,5 @@
 <html>
+<style type="text/css">@import url("style.css");></style>
 <head>
 <meta charset="utf-8">
 <title>极客</title>
