@@ -21,16 +21,16 @@
 <br> 
 <input type="button" value="点击复制给客服" onclick="Copy()">
 <form action="?action=submit" method="post" class="item_desc">
-  <p>区服系统选项:</p> 
+  <dt>区服系统选项:</dt> 
   <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ
   <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信
   <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ
   <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信
   <dt>账号性别:</dt> 
-  <dd><input class="ipt" type="radio" value="男" name="r2">男</dd> 
-  <dd><input class="ipt" type="radio" value="女" name="r2">女</dd>
+  <input class="ipt" type="radio" value="男" name="r2">男
+  <input class="ipt" type="radio" value="女" name="r2">女
   <dt>贵族等级:</dt> 
-  <dd>VIP<input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></dd> 
+  <dd><input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></dd> 
   <dt>具体大区:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r4"><span>例：128区</span></label></dd> 
   <dt>英雄数量:</dt> 
@@ -46,21 +46,21 @@
   <dt>当前段位:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r10"><span>例：钻石4</span></label></dd> 
   <dt>限定英雄:</dt> 
-  <dd><label> <input name="r11[]" type="checkbox" value="韩信">韩信</label></dd>
-  <dd><label> <input name="r11[]" type="checkbox" value="娜可露露">娜可露露</label></dd>
-  <dd><label> <input name="r11[]" type="checkbox" value="橘右京">橘右京</label></dd>
-  <dd><label> <input name="r11[]" type="checkbox" value="不知火舞">不知火舞 </label></dd>
+  <label> <input name="r11[]" type="checkbox" value="韩信">韩信</label>
+  <label> <input name="r11[]" type="checkbox" value="娜可露露">娜可露露</label>
+  <label> <input name="r11[]" type="checkbox" value="橘右京">橘右京</label>
+  <label> <input name="r11[]" type="checkbox" value="不知火舞">不知火舞 </label>
 
   <dt>荣耀水晶详细:</dt> 
-  <dd><label> <input name="r12[]" type="checkbox" value="活力突击">活力突击</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="无限飓风号">无限飓风号</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="全息碎影">全息碎影</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="武则天">武则天</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="天鹅之梦">天鹅之梦</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="大秦宣太后">大秦宣太后</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="杀手不太冷">杀手不太冷</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="星空梦想">星空梦想</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="倪克斯神谕">倪克斯神谕</label></dd>
+  <label> <input name="r12[]" type="checkbox" value="活力突击">活力突击</label>
+  <label> <input name="r12[]" type="checkbox" value="无限飓风号">无限飓风号</label>
+  <label> <input name="r12[]" type="checkbox" value="全息碎影">全息碎影</label>
+  <label> <input name="r12[]" type="checkbox" value="武则天">武则天</label>
+  <label> <input name="r12[]" type="checkbox" value="天鹅之梦">天鹅之梦</label>
+  <label> <input name="r12[]" type="checkbox" value="大秦宣太后">大秦宣太后</label>
+  <label> <input name="r12[]" type="checkbox" value="杀手不太冷">杀手不太冷</label>
+  <label> <input name="r12[]" type="checkbox" value="星空梦想">星空梦想</label>
+  <label> <input name="r12[]" type="checkbox" value="倪克斯神谕">倪克斯神谕</label>
   
   <dt>限定皮肤:</dt> 
   <dd>
