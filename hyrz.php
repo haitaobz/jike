@@ -6,36 +6,24 @@
 <body>
 <textarea name="copy" id="copy" cols="30" rows="16">
 区服系统选项:<?php echo $_POST["r1"];?>
-  
-是否成年号（健康系统）:<?php echo $_POST["r2"]; ?>
-  
-贵族等级:<?php echo $_POST["r3"]; ?>
+    
+贵族等级:<?php echo $_POST["r2"]; ?>
 
-角色等级:<?php echo $_POST["r4"]; ?>
+区服:<?php echo $_POST["r3"]; ?>
 
-英雄级武器数量:<?php echo $_POST["r5"]; ?>
+战斗力:<?php echo $_POST["r4"]; ?>
 
-玩偶:<?php echo $_POST["r6"]; ?>
+等级:<?php echo $_POST["r5"]; ?>
 
-英雄武器光效:<?php echo $_POST["r7"]; ?>
+S忍者数量:<?php echo $_POST["r6"]; ?>
 
-英雄武器皮肤:<?php echo $_POST["r8"]; ?>
+A忍者数量:<?php echo $_POST["r7"]; ?>
 
-多个英雄武器:<?php echo $_POST["r9"]; ?>
-
-多个武器:<?php echo $_POST["r10"]; ?>
-
-英雄人物:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
+S忍:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r8']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄步枪:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
+A忍:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r9']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄手枪:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄狙击:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄机枪:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
-         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-英雄近身及投掷武器:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
+通灵兽:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r10']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
 <br> 
@@ -44,80 +32,45 @@
   <dt>区服系统选项:</dt> 
   <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
   <dd><input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ</dd> 
-  <dt>是否成年号（健康系统）:</dt> 
-  <dd><input class="ipt" type="radio" value="成年" name="r2">成年</dd> 
-  <dd><input class="ipt" type="radio" value="未成年" name="r2">未成年</dd>
   <dt>贵族等级:</dt> 
-  <dd>VIP<input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></dd> 
-  <dt>角色等级:</dt> 
-  <dd><label> <input class="ipt txt txt1" type="text" name="r4"><span>请输入数字</span></label></dd> 
-  <dt>英雄级武器数量:</dt> 
+  <dd>VIP<input class="ipt txt txt1" type="text" name="r2"><span>请输入数字</span></dd> 
+  <dt>区服:</dt> 
+  <dd><label> <input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></label></dd> 
+  <dt>战斗力:</dt> 
+  <dd><label> <input class="ipt txt txt1" type="text" name="r4">个<span>请输入数字</span></label></dd> 
+  <dt>等级:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r5">个<span>请输入数字</span></label></dd> 
-  <dt>玩偶:</dt> 
+  <dt>S忍者数量:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r6">个<span>请输入数字</span></label></dd> 
-  <dt>英雄武器光效:</dt> 
+  <dt>A忍者数量:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r7">个<span>请输入数字</span></label></dd> 
-  <dt>英雄武器皮肤:</dt> 
-  <dd><label> <input class="ipt txt txt1" type="text" name="r8">个<span>请输入数字</span></label></dd> 
-  <dt>多个英雄武器:</dt> 
-  <dd><label> <input class="ipt txt txt1" type="text" name="r9">个<span>请输入数字</span></label></dd> 
-  <dt>多个武器:</dt> 
-  <dd><label> <input class="ipt txt txt1" type="text" name="r10"><span>请写X2 X3这种</span></label></dd> 
-  <dt>英雄人物:</dt> 
-  <label> <input name="r11[]" type="checkbox" value="樱">樱</label>
-  <label> <input name="r11[]" type="checkbox" value="孤狼">孤狼</label>
-  <label> <input name="r11[]" type="checkbox" value="龙野">龙野</label>
-  <label> <input name="r11[]" type="checkbox" value="葵">葵</label>
-  <label> <input name="r11[]" type="checkbox" value="萝拉">萝拉</label>
-  <label> <input name="r11[]" type="checkbox" value="审判者">审判者</label>
-  <label> <input name="r11[]" type="checkbox" value="零">零</label>
-
-  <dt>英雄步枪:</dt> 
+  
+  <dt>S忍:</dt> 
   <dd>
   <?php 
-  $pifu = array("王者之影","王者之魄","冠军之魄","变色龙","武圣","AK游骑兵","冰魂","M4沙漠领主","王者之心","超新星","火麒麟","死神","死神9A91","M4游骑兵","黑武士","无影","雷神","麒麟","黑龙","黑骑士","常胜","星速","夜袭","火麒麟灵狐","樱龙","角斗士","卧龙","枪娘","君威","恶魔","耀金伯爵","机械纪元","AK沙漠领主","幽暗骑士","牡丹精灵","天使","玫瑰精灵","暗夜","剑齿虎","天启"); 
+  $pifu = array("秽土波风水门","自来也","仙人自来也","大蛇丸","纲手","波风水门","猿飞日斩","秽土猿飞日斩","千手扉间","千手柱间","宇智波斑","须佐能乎鼬","神秘面具男","鬼灯幻月","四代目雷影","金角银角","大野木","天道佩恩","长门"); 
   foreach ($pifu as $value) {
-    echo "<label> <input name=\"r12[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+    echo "<label> <input name=\"r8[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
 
-  <dt>英雄手枪:</dt> 
+  <dt>A忍:</dt> 
   <dd>
   <?php 
-  $pifu = array("死神","武圣","游骑兵","王者之灵","雷神","天魔缭乱","无影","天神","火麒麟","黑武士","修罗","定军","神罚","飞电"); 
+  $pifu = array("地陆","仙人鸣人","鹰小队佐助","疾风咒印佐助","百豪春野樱","忍战丁次","卡卡西","神威卡卡西","凯","惊门凯","阿斯玛","秽土阿斯玛","止水","志村团藏","青年猿飞日斩","新春波风水门","疾风传我爱罗","忍战我爱罗","忍战勘九郎","照美冥","再不斩","奇拉比","达鲁伊","三船","小南","泳装小南","绝","角度","地怨虞角都","大蛇丸晓","蝎","百机操演蝎","宇智波鼬","鬼鲛","鲛肌融合鬼鲛","迪达拉","阿飞","飞段","死司凭血飞段"); 
   foreach ($pifu as $value) {
-    echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+    echo "<label> <input name=\"r9[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
   
-  <dt>英雄狙击:</dt> 
+  <dt>通灵兽:</dt> 
   <dd>
   <?php 
-  $pifu = array("游骑兵","王者之怒","天神","毁灭","雷神","极光","天龙","定军","枪娘"); 
+  $pifu = array("忍犬","蓝蛇","蛤蟆吉","忍龟","镰鼬","猿魔","山椒鱼","蛤蟆仙人","鲛鲨","蛤蟆健","乌鸦","蛤蟆龙","蛞蝓","蛤蟆广","梦貘","鹰","蜘蛛","螃蟹","变色龙","熊猫","一尾守鹤","蛤蟆文太","万蛇"); 
   foreach ($pifu as $value) {
-    echo "<label> <input name=\"r14[]\" type=\"checkbox\" value=\"$value\">$value</label>";
-  }
-  ?>
-  </dd>
-  
-  <dt>英雄机枪:</dt> 
-  <dd>
-  <?php 
-  $pifu = array("炼狱","赤炎盘龙","盘龙","烈龙","寒霜烈龙","黑龙魂","堡垒"); 
-  foreach ($pifu as $value) {
-    echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
-  }
-  ?>
-  </dd>
-  
-  <dt>英雄近身及投掷武器:</dt> 
-  <dd>
-  <?php 
-  $pifu = array("死神","游骑兵","斩神刀","斩魔刀","雷霆","无影","火麒麟尼泊尔","麒麟刺","擎天","耀金雷刃","毁灭","屠龙","龙啸","王者之啸","嗜血金鲨","弑魔者","神罚战斧","王者之影手雷","王者之影闪光弹","王者之影烟雾弹","火麒麟手雷","火麒麟闪光弹","火麒麟烟雾弹","黑武士手雷","黑武士闪光弹","黑武士烟雾弹"); 
-  foreach ($pifu as $value) {
-    echo "<label> <input name=\"r16[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+    echo "<label> <input name=\"r10[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
