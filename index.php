@@ -2,55 +2,42 @@
 <head>
 <meta charset="utf-8">
 <title>极客</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <form action="?action=submit" method="post">
-  <div class="startkit-btn">test
-<dt>区服系统选项:</dt> 
+  <dt>区服系统选项:</dt> 
   <dd><label > <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</label></dd> 
   <dd><label> <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信 </label></dd> 
   <dd><label> <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ </label></dd> 
-  <dd><label> <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信 </label></dd> </div>
-
+  <dd><label> <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信 </label></dd>
   <dt>账号性别:</dt> 
   <dd><label> <input class="ipt" type="radio" value="男" name="r2">男</label></dd> 
   <dd><label> <input class="ipt" type="radio" value="女" name="r2">女</label></dd>
-  <br>
-  
+  <br> 
   <dt>贵族等级:</dt> 
   <dd><label>VIP <input class="ipt txt txt1" type="text" name="r3"><span>请输入数字</span></label></dd> 
   <br>
-  
   <dt>具体大区:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r4"><span>例：128区</span></label></dd> 
   <br>  
-  
   <dt>英雄数量:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r5"><span>请输入数字</span></label></dd> 
-  <br>
-  
+  <br>  
   <dt>皮肤数量:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r6"><span>请输入数字</span></label></dd> 
-  <br>
-  
+  <br> 
   <dt>五级铭文数量:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r7"><span>请输入数字</span></label></dd> 
   <br>
-  
   <dt>荣耀典藏数量:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r8"><span>请输入数字</span></label></dd> 
-  <br>
-  
+  <br> 
   <dt>王者印记:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r9"><span>请输入数字</span></label></dd> 
   <br>
-  
   <dt>当前段位:</dt> 
   <dd><label> <input class="ipt txt txt1" type="text" name="r10"><span>例：钻石4</span></label></dd> 
   <br>
-  
-  
   <dt>限定英雄:</dt> 
   <dd><label> <input name="r11[]" type="checkbox" value="韩信">韩信</label></dd>
   <dd><label> <input name="r11[]" type="checkbox" value="娜可露露">娜可露露</label></dd>
@@ -153,54 +140,26 @@
   <label> <input name="r13[]" type="checkbox" value="猎兽之王">猎兽之王</label>
   <label> <input name="r13[]" type="checkbox" value="白昼王子">白昼王子</label>
   <label> <input name="r13[]" type="checkbox" value=" 天狼狩猎者"> 天狼狩猎者</label></dd>
-
+  <dt>限定皮肤:</dt> 
+  <dd>
+  <?php 
+  $pifu = array("未来机甲","黄金白羊座","黄金狮子座","久胜战神","幽冥火","幽冥之眼","冠军飞将","金色仲夏夜","胖达荣荣","黄金射手座","海洋之心","地狱火","仲夏夜之梦","末日机甲（孙尚香）","地狱之眼","超时空战士","幻海之心"); 
+  foreach ($pifu as $value) {
+    echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+  }
+  ?>
+  </dd>
+  
   <dt>史诗皮肤:</dt> 
-  <dd><label> <input name="r14[]" type="checkbox" value="遇见神鹿">遇见神鹿</label>
-  <label> <input name="r14[]" type="checkbox" value="修罗">修罗</label>
-  <label> <input name="r14[]" type="checkbox" value="地狱岩魂">地狱岩魂</label>
-  <label> <input name="r14[]" type="checkbox" value="魅语">魅语</label>
-  <label> <input name="r14[]" type="checkbox" value="青蛇">青蛇</label>
-  <label> <input name="r14[]" type="checkbox" value="白蛇">白蛇</label>
-  <label> <input name="r14[]" type="checkbox" value="晚萤">晚萤</label>
-  <label> <input name="r14[]" type="checkbox" value="箭雨风息">箭雨风息</label>
-  <label> <input name="r14[]" type="checkbox" value="暗隐猎兽者">暗隐猎兽者</label>
-  <label> <input name="r14[]" type="checkbox" value="无限星赏官">无限星赏官</label>
-  <label> <input name="r14[]" type="checkbox" value="猫狗日记（孙策）">猫狗日记（孙策）</label>
-  <label> <input name="r14[]" type="checkbox" value="猫狗日记（大乔）">猫狗日记（大乔）</label>
-  <label> <input name="r14[]" type="checkbox" value="暗夜贵公子">暗夜贵公子</label>
-  <label> <input name="r14[]" type="checkbox" value="星夜王子">星夜王子</label>
-  <label> <input name="r14[]" type="checkbox" value="功夫厨神">功夫厨神</label>
-  <label> <input name="r14[]" type="checkbox" value="节奏热浪">节奏热浪</label>
-  <label> <input name="r14[]" type="checkbox" value="摇滚巨星">摇滚巨星</label>
-  <label> <input name="r14[]" type="checkbox" value="冰冠公主">冰冠公主</label>
-  <label> <input name="r14[]" type="checkbox" value="龙骑士">龙骑士</label>
-  <label> <input name="r14[]" type="checkbox" value="电玩小子">电玩小子</label>
-  <label> <input name="r14[]" type="checkbox" value="偶像歌手">偶像歌手</label>
-  <label> <input name="r14[]" type="checkbox" value="暗夜猫娘">暗夜猫娘</label>
-  <label> <input name="r14[]" type="checkbox" value="苍穹之光">苍穹之光</label>
-  <label> <input name="r14[]" type="checkbox" value="白龙吟">白龙吟</label>
-  <label> <input name="r14[]" type="checkbox" value="水晶猎龙者">水晶猎龙者</label>
-  <label> <input name="r14[]" type="checkbox" value="暗隐猎兽者">暗隐猎兽者</label>
-  <label> <input name="r14[]" type="checkbox" value="特工魅影">特工魅影</label>
-  <label> <input name="r14[]" type="checkbox" value="逐浪之夏">逐浪之夏</label>
-  <label> <input name="r14[]" type="checkbox" value="天才门将">天才门将</label>
-  <label> <input name="r14[]" type="checkbox" value="舞动绿茵">舞动绿茵</label>
-  <label> <input name="r14[]" type="checkbox" value="心灵骇客">心灵骇客</label>
-  <label> <input name="r14[]" type="checkbox" value="心灵战警">心灵战警</label>
-  <label> <input name="r14[]" type="checkbox" value="鬼剑武藏">鬼剑武藏</label>
-  <label> <input name="r14[]" type="checkbox" value="千年之狐">千年之狐</label>
-  <label> <input name="r14[]" type="checkbox" value="乘风破浪">乘风破浪</label>
-  <label> <input name="r14[]" type="checkbox" value="缤纷独角兽">缤纷独角兽</label>
-  <label> <input name="r14[]" type="checkbox" value="末日机甲（吕布）">末日机甲（吕布）</label>
-  <label> <input name="r14[]" type="checkbox" value="幽灵船长">幽灵船长</label>
-  <label> <input name="r14[]" type="checkbox" value="圣诞恋歌">圣诞恋歌</label>
-  <label> <input name="r14[]" type="checkbox" value="圣诞狂欢">圣诞狂欢</label>
-  <label> <input name="r14[]" type="checkbox" value="黄金分割率">黄金分割率</label>
-  <label> <input name="r14[]" type="checkbox" value="紫霞仙子">紫霞仙子</label>
-  <label> <input name="r14[]" type="checkbox" value="德古拉伯爵">德古拉伯爵</label>
-  <label> <input name="r14[]" type="checkbox" value="魅力维加斯">魅力维加斯</label>  
-  <label> <input name="r14[]" type="checkbox" value="曙光守护者">曙光守护者</label></dd>
-
+  <dd>
+  <?php 
+  $pifu = array("遇见神鹿","修罗","地狱岩魂","魅语","青蛇","白蛇","晚萤","箭雨风息","暗隐猎兽者","无限星赏官","猫狗日记（孙策）","猫狗日记（大乔）","暗夜贵公子","星夜王子","功夫厨神","节奏热浪","摇滚巨星","冰冠公主","龙骑士","电玩小子","偶像歌手","暗夜猫娘","苍穹之光","白龙吟","水晶猎龙者","暗隐猎兽者","特工魅影","逐浪之夏","天才门将","舞动绿茵","心灵骇客","心灵战警","鬼剑武藏","千年之狐","乘风破浪","缤纷独角兽","末日机甲（吕布）","幽灵船长","圣诞恋歌","圣诞狂欢","黄金分割率","紫霞仙子","德古拉伯爵","魅力维加斯","曙光守护者"); 
+  foreach ($pifu as $value) {
+    echo "<label> <input name=\"r14[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+  }
+  ?>
+  </dd>
+  
   <dt>传说皮肤:</dt> 
   <dd>
   <?php 
