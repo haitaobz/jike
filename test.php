@@ -17,6 +17,27 @@
     <div class="logo_title">
         <h3>LinuxCast.net Demo Site</h3>
         <p>LinuxCast.net演示页面，Linux学习不再晦涩难懂</p>
+        <textarea name="copy" id="copy" cols="30" rows="10">
+区服系统选项:<?php echo $_POST["r1"];?>
+  
+账号性别:<?php echo $_POST["r2"]; ?>
+  
+贵族等级:<?php echo $_POST["r3"]; ?>
+
+限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+荣耀水晶详细:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+限定皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+史诗皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+传说皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+</textarea>
+     
     </div>
     <div class="navi">
         <ul>
