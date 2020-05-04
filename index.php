@@ -82,7 +82,6 @@
 
 限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
-  
 荣耀水晶详细:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
