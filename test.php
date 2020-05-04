@@ -37,9 +37,11 @@
             <div class="item_img">
                 <img src="素材/1.png" alt="image"/>
             </div>
- 
+         
             <div class="item_content">
-                <p class="item_info"><div align="center"><a href="wzry.php">王者荣耀生成器</a></p>
+                <h3 class="item_info"><div align="center"><a href="wzry.php">王者荣耀</a></h3>
+                <p class="item_info"></p>
+                <p class="item_desc"></p>
             </div>
         </div>
  
@@ -49,9 +51,9 @@
             </div>
  
             <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
+                <h3 class="item_info"><div align="center"><a href="cf.php">cf</a></h3>
+                <p class="item_info"></p>
+                <p class="item_desc"></p>
             </div>
         </div>
  
@@ -61,9 +63,9 @@
             </div>
  
             <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
+                <h3 class="item_info"><div align="center"><a href="hyrz.php">火影忍者</a></h3>
+                <p class="item_info"></p>
+                <p class="item_desc"></p>
             </div>
         </div>
  
@@ -73,9 +75,9 @@
             </div>
  
             <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
+                <h3 class="item_info"><div align="center"><a href="hpjy.php">和平精英</a></h3>
+                <p class="item_info"></p>
+                <p class="item_desc"></p>
             </div>
         </div>
  
