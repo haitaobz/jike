@@ -1,5 +1,4 @@
 <html>
-<link rel="stylesheet" href="css/style.css">
 <head>
 <link rel="stylesheet" href="css/style.css">
 <meta charset="utf-8">
@@ -7,7 +6,7 @@
 </head>
 <body>
 <form action="?action=submit" method="post">
-  <dt>区服系统选项:</dt> 
+  <dt class="main-menu">区服系统选项:</dt> 
   <dd><label> <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</label></dd> 
   <dd><label> <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信 </label></dd> 
   <dd><label> <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ </label></dd> 
