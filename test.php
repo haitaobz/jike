@@ -32,7 +32,6 @@
  
         <div class="item">
             <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
             </div>
             <div class="item_content">
                <textarea name="copy" id="copy" cols="30" rows="10">
@@ -159,11 +158,10 @@
     <div class="sidebar">
         <div class="author">
             <div class="author_img">
-                <img src="3.jpg"/>
+
             </div>
             <div class="author_info">
-                <h4>twilight</p>
-                <p>cease to struggle and you cease to live</p>
+           
             </div>
         </div>
         <div class="article">
