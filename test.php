@@ -3,11 +3,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客实战">
+    <meta name="keywords" content="极客">
     <meta name="description" content="htmlcss实战">
     <meta name="autor" content="twilight">
  
-    <title>罗毅峰的作业</title>
+    <title>极客</title>
     <link rel="stylesheet" type="text/css" href="css.css"/>
 </head>
  
@@ -16,7 +16,7 @@
 <div id="header">
     <div class="logo_title">
         <h3>LinuxCast.net Demo Site</h3>
-        <p>LinuxCast.net演示页面，Linux学习不再晦涩难懂</p>
+        <p>王者荣耀</p>
         <textarea name="copy" id="copy" cols="30" rows="10">
 区服系统选项:<?php echo $_POST["r1"];?>
   
@@ -147,124 +147,7 @@
     }        
 </script>     
     </div>
-    <div class="navi">
-        <ul>
-            <li><a href="">首页</a></li>
-            <li><a href="">闲言碎语</a></li>
-            <li><a href="">我是谁</a></li>
-        </ul>
-    </div>
-    <div class="clear"></div>
- 
-</div>
- 
-<!--中部-->
-<div id="wrapper">
-    <div class="main">
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-    </div>
- 
-    <div class="sidebar">
-        <div class="author">
-            <div class="author_img">
-                <img src="3.jpg"/>
-            </div>
-            <div class="author_info">
-                <h4>twilight</p>
-                <p>cease to struggle and you cease to live</p>
-            </div>
-        </div>
-        <div class="article">
-            <h3>推荐文章</h3>
-            <ul>
-                <li>推荐文章1</li>
-                <li>推荐文章2</li>
-                <li>推荐文章3</li>
-                <li>推荐文章4</li>
-                <li>推荐文章5</li>
-                <li>推荐文章6</li>
-            </ul>
-        </div>
-        <div class="site_info">
-            <p>访客100</p>
-            <p>文章数100</p>
-        </div>
-    </div>
-    <div class="clear"></div>
- 
-</div>
+    
  
 <!--尾部-->
 <div id="footer">
