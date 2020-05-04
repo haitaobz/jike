@@ -6,7 +6,7 @@
 </head>
 <body>
 <form action="?action=submit" method="post">
-  <div class="main-menu">test
+  <div class="startkit-btn">test
 <dt>区服系统选项:</dt> 
   <dd><label > <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</label></dd> 
   <dd><label> <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信 </label></dd> 
