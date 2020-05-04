@@ -4,7 +4,7 @@
 <title>极客</title>
 </head>
 <body>
-<form action="" method="get">
+<form action="" method="post">
   <dt>区服系统选项:</dt> 
   <dd><label> <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</label></dd> 
   <dd><label> <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信 </label></dd> 
@@ -34,11 +34,18 @@
 </html>
 
 <textarea autoHeight="true">
-区服系统选项:<?php echo $_GET["r1"];?>
-
-账号性别:<?php echo $_GET["r2"]; ?>
-  
-贵族等级:<?php echo $_GET["r3"]; ?>
-  
-限定英雄:<?php if( $_GET ) { $value = $_GET['r4']; echo '你的选择:'.implode(',',$value);}?>
+区服系统选项:<?php echo $_POST["r1"];?>&#10;
+账号性别:<?php echo $_POST["r2"]; ?>&#10;
+贵族等级:<?php echo $_POST["r3"]; ?>&#10;
+限定英雄:<?php if( $_POST ) { $value = $_GET['r4']; echo '你的选择:'.implode(',',$value);}?>&#10;
+<?php 
+$area_arr = array(); 
+if($_GET['action']=="submit"){ 
+$area_arr = $_POST['r4']; 
+} 
+echo "您选定的地区为: "; 
+foreach ($area_arr as $k=>$v){ 
+echo $v." "; 
+} 
+?> 
 </textarea>
