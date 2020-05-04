@@ -3,11 +3,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客实战">
+    <meta name="keywords" content="极客">
     <meta name="description" content="htmlcss实战">
     <meta name="autor" content="twilight">
  
-    <title>罗毅峰的作业</title>
+    <title>极客</title>
     <link rel="stylesheet" type="text/css" href="css.css"/>
 </head>
  
@@ -15,8 +15,8 @@
 <!--头部-->
 <div id="header">
     <div class="logo_title">
-        <h3>LinuxCast.net Demo Site</h3>
-        <p>LinuxCast.net演示页面，Linux学习不再晦涩难懂</p>
+        <h3>王者荣耀</h3>
+        <p>王者荣耀数据生成器</p>
 <textarea name="copy" id="copy" cols="30" rows="10">
 区服系统选项:<?php echo $_POST["r1"];?>
   
@@ -137,9 +137,9 @@
     </div>
     <div class="navi">
         <ul>
-            <li><a href="">首页</a></li>
-            <li><a href="">闲言碎语</a></li>
-            <li><a href="">我是谁</a></li>
+            //<li><a href="">首页</a></li>
+            //<li><a href="">闲言碎语</a></li>
+            //<li><a href="">我是谁</a></li>
         </ul>
     </div>
     <div class="clear"></div>
