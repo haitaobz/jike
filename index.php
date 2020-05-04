@@ -20,7 +20,6 @@
   <dd><label>VIP <input class="ipt txt txt1" type="text" name="r3" id="r3"><span>请输入数字</span></label></dd> 
   <br>   
 
-  <input class="myad" type="hidden" cont="限定英雄" name="zd[]" value="137"> 
   <dt>限定英雄:</dt> 
   <dd><label> <input name="r4[]" type="checkbox" value="韩信">韩信</label></span></dd>
   <dd><label> <input name="r4[]" type="checkbox" value value="娜可露露">娜可露露</label></span></dd>
