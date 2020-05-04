@@ -201,15 +201,13 @@
 
   <dt>传说皮肤:</dt> 
   <dd>
-<?php 
-$pifu = array("遇见神鹿","紫霞仙子","曙光守护者","圣诞狂欢"); 
-foreach ($pifu as $value) {
-  echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
-}
-?>
-    <label> <input name="r15[]" type="checkbox" value="遇见神鹿">遇见神鹿</label>
-  <label> <input name="r15[]" type="checkbox" value="紫霞仙子">紫霞仙子</label>
-  <label> <input name="r15[]" type="checkbox" value="曙光守护者">曙光守护者</label></dd>
+  <?php 
+  $pifu = array("未来机甲","黄金白羊座","黄金狮子座","久胜战神","幽冥火","幽冥之眼","冠军飞将","金色仲夏夜","胖达荣荣","黄金射手座","海洋之心","地狱火","仲夏夜之梦","末日机甲（孙尚香）","地狱之眼","超时空战士","幻海之心"); 
+  foreach ($pifu as $value) {
+    echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+  }
+  ?>
+  </dd>
   
 <input type="submit" value="提交">
 </form>
