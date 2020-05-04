@@ -21,6 +21,7 @@
 </html>
 
 <textarea autoHeight="true">
-区服系统选项<?php echo $_GET["r1"];\n?>
+区服系统选项<?php echo $_GET["r1"];?>
+
 账号性别<?php echo $_GET["r2"]; ?>
 </textarea>
