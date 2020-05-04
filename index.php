@@ -32,7 +32,7 @@
 </body>
 </html>
 
-<textarea name="copy" id="copy" cols="30" rows="10"></textarea>
+<textarea name="copy" id="copy" cols="30" rows="10">
 区服系统选项:<?php echo $_POST["r1"];?>
   
 账号性别:<?php echo $_POST["r2"]; ?>
