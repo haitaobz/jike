@@ -113,7 +113,7 @@
  
 <!--尾部-->
 <div id="footer">
-    <div class="left">Copyright © 1999-2016, balalalalal, All Rights Reserved</div>
+    <div class="left">Copyright © 2020-2021, 极客, All Rights Reserved</div>
     <div class="right">
         <ul>
             <li>关于我们</li>
