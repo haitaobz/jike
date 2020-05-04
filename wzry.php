@@ -5,19 +5,8 @@
   
 贵族等级:<?php echo $_POST["r3"]; ?>
 
-具体大区：<?php echo $_POST["r4"]; ?>
+具体大区:<?php echo $_POST["r4"]; ?>
 
-英雄数量：<?php echo $_POST["r5"]; ?>
-
-皮肤数量：<?php echo $_POST["r6"]; ?>
-
-五级铭文数量：<?php echo $_POST["r7]; ?>
-
-成就等级：<?php echo $_POST["r8"]; ?>
-
-王者印记：<?php echo $_POST["r9"]; ?>
-
-当前段位：<?php echo $_POST["r10"]; ?>
 
 限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
