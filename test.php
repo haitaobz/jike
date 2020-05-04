@@ -3,11 +3,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客实战">
-    <meta name="description" content="htmlcss实战">
+    <meta name="keywords" content="极客">
+    <meta name="description" content="极客">
     <meta name="autor" content="twilight">
  
-    <title>罗毅峰的作业</title>
+    <title>极客</title>
     <link rel="stylesheet" type="text/css" href="css.css"/>
 </head>
  
@@ -15,8 +15,8 @@
 <!--头部-->
 <div id="header">
     <div class="logo_title">
-        <h3>LinuxCast.net Demo Site</h3>
-        <p>LinuxCast.net演示页面，Linux学习不再晦涩难懂</p>
+        <h3>极客</h3>
+        <p>生成器</p>
     </div>
     <div class="navi">
         <ul>
@@ -39,10 +39,7 @@
             </div>
  
             <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-                <?php include("wzry.php"); ?>
+                <p class="item_info"><div align="center"><a href="wzry.php">王者荣耀生成器</a></p>
             </div>
         </div>
  
