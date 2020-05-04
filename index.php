@@ -36,7 +36,7 @@
 区服系统选项:<?php echo $_POST["r1"];?>&#10;
 账号性别:<?php echo $_POST["r2"]; ?>&#10;
 贵族等级:<?php echo $_POST["r3"]; ?>&#10;
-限定英雄:<?php if( $_POST ) { $value = $_GET['r4']; echo '你的选择:'.implode(',',$value);}?>&#10;
+
 <?php 
 $area_arr = array(); 
 if($_GET['action']=="submit"){ 
