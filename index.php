@@ -61,12 +61,39 @@
   <dd><label> <input name="r12[]" type="checkbox" value="全息碎影">全息碎影</label></dd>
   <dd><label> <input name="r12[]" type="checkbox" value="武则天">武则天</label></dd>
   <dd><label> <input name="r12[]" type="checkbox" value="天鹅之梦">天鹅之梦</label></dd>
-  <dd><label> <input name="r12[]" type="checkbox" value="武则天">武则天</label></dd>
   <dd><label> <input name="r12[]" type="checkbox" value="大秦宣太后">大秦宣太后</label></dd>
   <dd><label> <input name="r12[]" type="checkbox" value="杀手不太冷">杀手不太冷</label></dd>
   <dd><label> <input name="r12[]" type="checkbox" value="星空梦想">星空梦想</label></dd>
   <dd><label> <input name="r12[]" type="checkbox" value="倪克斯神谕">倪克斯神谕</label></dd>
   
+  <dt>限定皮肤:</dt> 
+  <dd><label> <input name="r13[]" type="checkbox" value="玄武志">玄武志</label>
+  <label> <input name="r13[]" type="checkbox" value="无限飓风号">遇见飞仙</label>
+  <label> <input name="r13[]" type="checkbox" value="游园惊梦">游园惊梦</label>
+  <label> <input name="r13[]" type="checkbox" value="如梦令(后羿)">如梦令(后羿)</label>
+  <label> <input name="r13[]" type="checkbox" value="如梦令(嫦娥)">如梦令(嫦娥)</label>
+  <label> <input name="r13[]" type="checkbox" value="幽恒">幽恒</label>
+  <label> <input name="r13[]" type="checkbox" value="玄嵩">玄嵩</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="时之彼端">时之彼端</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="岱宗">岱宗</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="飞衡">飞衡</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="太华">太华</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="猫影幻舞">猫影幻舞</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="天狼征服者">天狼征服者</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="梁祝">梁祝</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="玩趣恶龙">玩趣恶龙</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="神奇女侠">神奇女侠</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="云霓雀翎">云霓雀翎</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="冰封战神">冰封战神</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="凤求凰">凤求凰</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="天魔缭乱">天魔缭乱</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="至尊宝">至尊宝</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="麒麟志">麒麟志</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="奇迹圣诞">奇迹圣诞</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="朱雀志">朱雀志</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="白虎志">白虎志</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="美猴王">美猴王</label></dd>
+  <dd><label> <input name="r13[]" type="checkbox" value="青龙志">青龙志</label></dd>
 
 <input type="submit" value="提交">
 </form>
@@ -83,6 +110,8 @@
 限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r11']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 荣耀水晶详细:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r12']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+限定皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
 <br> 
