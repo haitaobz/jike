@@ -1,4 +1,4 @@
-<textarea name="copy" id="copy" cols="30" rows="10">
+<textarea name="copy" id="copy" cols="30" rows="16">
 区服系统选项:<?php echo $_POST["r1"];?>
   
 账号性别:<?php echo $_POST["r2"]; ?>
@@ -32,6 +32,7 @@
 内测及战令英雄皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r16']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
+
 <br> 
 <input type="button" value="点击复制给客服" onclick="Copy()">
 <form action="?action=submit" method="post" class="item_desc">
