@@ -20,9 +20,9 @@
     </div>
     <div class="navi">
         <ul>
-            <li><a href="">首页</a></li>
-            <li><a href="">闲言碎语</a></li>
-            <li><a href="">我是谁</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
         </ul>
     </div>
     <div class="clear"></div>
@@ -35,7 +35,7 @@
  
         <div class="item">
             <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
+                
             </div>
          
             <div class="item_content">
@@ -47,7 +47,7 @@
  
         <div class="item">
             <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
+               
             </div>
  
             <div class="item_content">
@@ -59,7 +59,7 @@
  
         <div class="item">
             <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
+                
             </div>
  
             <div class="item_content">
@@ -71,7 +71,7 @@
  
         <div class="item">
             <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
+               
             </div>
  
             <div class="item_content">
@@ -80,37 +80,15 @@
                 <p class="item_desc"></p>
             </div>
         </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
-            </div>
-        </div>
+
+       
  
     </div>
  
     <div class="sidebar">
         <div class="author">
             <div class="author_img">
-                <img src="3.jpg"/>
+             
             </div>
             <div class="author_info">
                 <h4>twilight</p>
