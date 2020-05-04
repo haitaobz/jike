@@ -39,8 +39,10 @@
   
 贵族等级:<?php echo $_POST["r3"]; ?>
 
-限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r4']; } foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r4']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
+<br> 
 <input type="button" value="点击复制代码" onclick="Copy()">
 
 <script>
