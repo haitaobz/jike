@@ -87,7 +87,7 @@
   <?php 
   $pifu = array("死神","武圣","游骑兵","王者之灵","雷神","天魔缭乱","无影","天神","火麒麟","黑武士","修罗","定军","神罚","飞电"); 
   foreach ($pifu as $value) {
-    echo "<label> <input name=\"r15[]\" type=\"checkbox\" value=\"$value\">$value</label>";
+    echo "<label> <input name=\"r13[]\" type=\"checkbox\" value=\"$value\">$value</label>";
   }
   ?>
   </dd>
