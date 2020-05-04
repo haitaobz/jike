@@ -17,7 +17,28 @@
     <div class="logo_title">
         <h3>王者荣耀</h3>
         <p>王者荣耀数据生成器</p>
-<textarea name="copy" id="copy" cols="30" rows="10">
+    </div>
+    <div class="navi">
+        <ul>
+        </ul>
+    </div>
+    <div class="clear"></div>
+ 
+</div>
+ 
+<!--中部-->
+<div id="wrapper">
+    <div class="main">
+ 
+        <div class="item">
+            <div class="item_img">
+                <img src="素材/1.png" alt="image"/>
+            </div>
+            <div class="item_content">
+                <h3>示例标题示例标题</h3>
+                <p class="item_info">作者:twilight 日期：2017-2-2</p>
+                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
+               <textarea name="copy" id="copy" cols="30" rows="10">
 区服系统选项:<?php echo $_POST["r1"];?>
   
 账号性别:<?php echo $_POST["r2"]; ?>
@@ -133,28 +154,8 @@
   
 <input type="submit" value="提交">
 </form>
+         </div>
 
-    </div>
-    <div class="navi">
-        <ul>
-        </ul>
-    </div>
-    <div class="clear"></div>
- 
-</div>
- 
-<!--中部-->
-<div id="wrapper">
-    <div class="main">
- 
-        <div class="item">
-            <div class="item_img">
-                <img src="素材/1.png" alt="image"/>
-            </div>
- 
-            <div class="item_content">
-                
-            </div>
         </div>
     </div>
  
