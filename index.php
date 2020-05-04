@@ -1,8 +1,8 @@
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css">
 <meta charset="utf-8">
 <title>极客</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <form action="?action=submit" method="post">
