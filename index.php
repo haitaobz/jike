@@ -163,8 +163,54 @@
   <label> <input name="r14[]" type="checkbox" value="箭雨风息">箭雨风息</label>
   <label> <input name="r14[]" type="checkbox" value="暗隐猎兽者">暗隐猎兽者</label>
   <label> <input name="r14[]" type="checkbox" value="无限星赏官">无限星赏官</label>
-  <label> <input name="r14[]" type="checkbox" value=" 曙光守护者"> 曙光守护者</label></dd>
+  <label> <input name="r14[]" type="checkbox" value="猫狗日记（孙策）">猫狗日记（孙策）</label>
+  <label> <input name="r14[]" type="checkbox" value="猫狗日记（大乔）">猫狗日记（大乔）</label>
+  <label> <input name="r14[]" type="checkbox" value="暗夜贵公子">暗夜贵公子</label>
+  <label> <input name="r14[]" type="checkbox" value="星夜王子">星夜王子</label>
+  <label> <input name="r14[]" type="checkbox" value="功夫厨神">功夫厨神</label>
+  <label> <input name="r14[]" type="checkbox" value="节奏热浪">节奏热浪</label>
+  <label> <input name="r14[]" type="checkbox" value="摇滚巨星">摇滚巨星</label>
+  <label> <input name="r14[]" type="checkbox" value="冰冠公主">冰冠公主</label>
+  <label> <input name="r14[]" type="checkbox" value="龙骑士">龙骑士</label>
+  <label> <input name="r14[]" type="checkbox" value="电玩小子">电玩小子</label>
+  <label> <input name="r14[]" type="checkbox" value="偶像歌手">偶像歌手</label>
+  <label> <input name="r14[]" type="checkbox" value="暗夜猫娘">暗夜猫娘</label>
+  <label> <input name="r14[]" type="checkbox" value="苍穹之光">苍穹之光</label>
+  <label> <input name="r14[]" type="checkbox" value="白龙吟">白龙吟</label>
+  <label> <input name="r14[]" type="checkbox" value="水晶猎龙者">水晶猎龙者</label>
+  <label> <input name="r14[]" type="checkbox" value="暗隐猎兽者">暗隐猎兽者</label>
+  <label> <input name="r14[]" type="checkbox" value="特工魅影">特工魅影</label>
+  <label> <input name="r14[]" type="checkbox" value="逐浪之夏">逐浪之夏</label>
+  <label> <input name="r14[]" type="checkbox" value="天才门将">天才门将</label>
+  <label> <input name="r14[]" type="checkbox" value="舞动绿茵">舞动绿茵</label>
+  <label> <input name="r14[]" type="checkbox" value="心灵骇客">心灵骇客</label>
+  <label> <input name="r14[]" type="checkbox" value="心灵战警">心灵战警</label>
+  <label> <input name="r14[]" type="checkbox" value="鬼剑武藏">鬼剑武藏</label>
+  <label> <input name="r14[]" type="checkbox" value="千年之狐">千年之狐</label>
+  <label> <input name="r14[]" type="checkbox" value="乘风破浪">乘风破浪</label>
+  <label> <input name="r14[]" type="checkbox" value="缤纷独角兽">缤纷独角兽</label>
+  <label> <input name="r14[]" type="checkbox" value="末日机甲（吕布）">末日机甲（吕布）</label>
+  <label> <input name="r14[]" type="checkbox" value="幽灵船长">幽灵船长</label>
+  <label> <input name="r14[]" type="checkbox" value="圣诞恋歌">圣诞恋歌</label>
+  <label> <input name="r14[]" type="checkbox" value="圣诞狂欢">圣诞狂欢</label>
+  <label> <input name="r14[]" type="checkbox" value="黄金分割率">黄金分割率</label>
+  <label> <input name="r14[]" type="checkbox" value="紫霞仙子">紫霞仙子</label>
+  <label> <input name="r14[]" type="checkbox" value="德古拉伯爵">德古拉伯爵</label>
+  <label> <input name="r14[]" type="checkbox" value="魅力维加斯">魅力维加斯</label>  
+  <label> <input name="r14[]" type="checkbox" value="曙光守护者">曙光守护者</label></dd>
 
+  <dt>传说皮肤:</dt> 
+  <dd>
+<?php 
+$pifu = array("遇见神鹿","紫霞仙子","曙光守护者","圣诞狂欢"); 
+foreach ($pifu as $value) {
+  echo "<label> <input name="r15[]" type="checkbox" value=$value>$value</label>";
+}
+?>
+    <label> <input name="r15[]" type="checkbox" value="遇见神鹿">遇见神鹿</label>
+  <label> <input name="r15[]" type="checkbox" value="紫霞仙子">紫霞仙子</label>
+  <label> <input name="r15[]" type="checkbox" value="曙光守护者">曙光守护者</label></dd>
+  
 <input type="submit" value="提交">
 </form>
 </body>
@@ -184,6 +230,8 @@
 限定皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r13']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 史诗皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r14']; } 
+         foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
+传说皮肤:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r15']; } 
          foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
 <br> 
