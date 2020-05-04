@@ -137,9 +137,6 @@
     </div>
     <div class="navi">
         <ul>
-            //<li><a href="">首页</a></li>
-            //<li><a href="">闲言碎语</a></li>
-            //<li><a href="">我是谁</a></li>
         </ul>
     </div>
     <div class="clear"></div>
@@ -156,9 +153,7 @@
             </div>
  
             <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
+                
             </div>
         </div>
     </div>
@@ -174,19 +169,10 @@
             </div>
         </div>
         <div class="article">
-            <h3>推荐文章</h3>
-            <ul>
-                <li>推荐文章1</li>
-                <li>推荐文章2</li>
-                <li>推荐文章3</li>
-                <li>推荐文章4</li>
-                <li>推荐文章5</li>
-                <li>推荐文章6</li>
-            </ul>
+            
         </div>
         <div class="site_info">
-            <p>访客100</p>
-            <p>文章数100</p>
+            
         </div>
     </div>
     <div class="clear"></div>
