@@ -6,11 +6,12 @@
 </head>
 <body>
 <form action="?action=submit" method="post">
-  <dt>区服系统选项:</dt> 
+  <div class="main-menu">test
+<dt>区服系统选项:</dt> 
   <dd><label > <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</label></dd> 
   <dd><label> <input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信 </label></dd> 
   <dd><label> <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ </label></dd> 
-  <dd><label> <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信 </label></dd> 
+  <dd><label> <input class="ipt" type="radio" value="安卓VX" name="r1">安卓微信 </label></dd> </div>
 
   <dt>账号性别:</dt> 
   <dd><label> <input class="ipt" type="radio" value="男" name="r2">男</label></dd> 
