@@ -32,7 +32,7 @@
 </body>
 </html>
 
-<textarea autoHeight="true">
+<textarea name="copy" id="copy" cols="30" rows="10"></textarea>
 区服系统选项:<?php echo $_POST["r1"];?>
   
 账号性别:<?php echo $_POST["r2"]; ?>
@@ -41,3 +41,16 @@
 
 限定英雄:<?php $area_arr = array(); if($_GET['action']=="submit"){ $area_arr = $_POST['r4']; } foreach ($area_arr as $k=>$v){ echo $v.","; } ?> 
 </textarea>
+<input type="button" value="点击复制代码" onclick="Copy()">
+
+<script>
+    function Copy() {
+        // 获取Dom节点
+       var copy = document.getElementById('copy');
+        //  用select函数将文本内容选中
+        copy.select();
+        document.execCommand('Copy');
+        alert('复制成功')
+
+    }        
+</script>
