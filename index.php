@@ -22,8 +22,8 @@
 
   <dt>限定英雄:</dt> 
   <dd><label> <input name="r4[]" type="checkbox" value="韩信">韩信</label></span></dd>
-  <dd><label> <input name="r4[]" type="checkbox" value value="娜可露露">娜可露露</label></span></dd>
-  <dd><label> <input name="r4[]" type="checkbox" value value="橘右京">橘右京</label></span></dd>
+  <dd><label> <input name="r4[]" type="checkbox" value="娜可露露">娜可露露</label></span></dd>
+  <dd><label> <input name="r4[]" type="checkbox" value="橘右京">橘右京</label></span></dd>
   <dd><label> <input name="r4[]" type="checkbox" value="不知火舞">不知火舞 </label></span></dd>
 
 
