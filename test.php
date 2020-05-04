@@ -35,9 +35,6 @@
                 <img src="素材/1.png" alt="image"/>
             </div>
             <div class="item_content">
-                <h3>示例标题示例标题</h3>
-                <p class="item_info">作者:twilight 日期：2017-2-2</p>
-                <p class="item_desc">示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容示例内容</p>
                <textarea name="copy" id="copy" cols="30" rows="10">
 区服系统选项:<?php echo $_POST["r1"];?>
   
@@ -60,7 +57,7 @@
 </textarea>
 <br> 
 <input type="button" value="点击复制给客服" onclick="Copy()">
-<form action="?action=submit" method="post">
+<form action="?action=submit" method="post" class="item_desc">
   <dt>区服系统选项:</dt> 
   <dd><input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ</dd> 
   <dd><input class="ipt" type="radio" value="苹果VX" name="r1">苹果微信</dd> 
