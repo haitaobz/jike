@@ -40,5 +40,5 @@
   
 贵族等级:<?php echo $_GET["r3"]; ?>
   
-限定英雄:<?php if( $_GET["r4"]; ) { $value = $_POST['checkbox']; echo '你的选择:'.implode(',',$value);}?>
+限定英雄:<?php if( $_GET ) { $value = $_GET['r4']; echo '你的选择:'.implode(',',$value);}?>
 </textarea>
